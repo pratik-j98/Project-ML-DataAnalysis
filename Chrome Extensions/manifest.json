@@ -1,0 +1,26 @@
+{
+	"manifest_version" : 2,
+	"name" : "Bluring OF Images",
+	"version" : "1.0",
+	"description" : "Blurs the the nude images at run time",
+	"icons":{
+		"128" : "icon128.jpeg",
+		"48" : "icon48.jpeg",
+		"16" : "icon16.jpeg"
+	},
+	"permissions":[
+        "activeTab",
+        "tabs",
+	"https://*/"
+    ],
+	"browser_action":{
+		"default_icon" : "icon16.jpeg",
+		"default_popup" : "popup.html"
+	},
+
+	
+
+	"content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net; object-src 'self'" 
+
+
+}
